@@ -2,7 +2,8 @@
     border: 0px;
     padding: 0px;
     color: white;
-}
+    font-family: 'Abel';
+} 
 body{
     background-color: rgb(230, 60, 48);
     height:100vh;
@@ -26,10 +27,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-#timer-container{
-    width: 100vw;
-    height: 10vh;
-}
+
 #container{
     border: 1px solid white;
     padding: 15px 15px ;
@@ -46,7 +44,7 @@ body{
     width: 90%;
     height: 10%;
     font-size: 80px;
-    
+    margin-top: 10vh;
 }
 #controls{
     display: flex;
@@ -55,10 +53,14 @@ body{
 }
 #controls>button{
     
-    background: rgb(10, 159, 170);
+    
     color:rgb(247, 244, 239);
     padding: 10px;
     width: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px white;
+    background-color: transparent;
+}
+#controls>button>i{
+    color:rgb(210, 206, 203);
 }
