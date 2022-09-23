@@ -28,18 +28,31 @@
     <link rel="stylesheet" href="/Timer/index.css" />
   </head>
   <body>
+
     <div id="display-container">
       <div id="display">00 : 00</div>
     </div>
+
     <!-- controller markup -->
     <div id="container">
       <div id="controls">
-        <button id="start"><i class="fa-solid fa-play"></i></button>
-        <button id="stop"><i class="fa-solid fa-stop"></i></button>
-        <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+
+        <button id="start" aria-label="start">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+        <button id="stop" aria-label="stop">
+          <i class="fa-solid fa-stop"></i>
+        </button>
+
+        <button id="reset" aria-label="reset">
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+
       </div>
     </div>
     <!--app discriptioin -->
+
     <section id="discription">
       <h1>Stop Watch</h1>
       <p>
